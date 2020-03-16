@@ -1,11 +1,11 @@
-# Iterative Sorting Algorithms
+ # Iterative Sorting Algorithms
 
 ## Insertion Sort
 Think back to class or team picture day. Everyone stands in a line facing the photographer. Starting at the left-hand side of the line, the photographer checks to make sure each person is taller than the person next to them. If they are shorter, the photographer pulls them out and shifts people over to the right until he or she finds the right spot for this person. They then insert them back into the line. This process repeats until the photographer reaches the last person on the right-hand side, who must be the tallest person in the group. This is ***Insertion Sort***.
 
-[(VIDEO) Insert-sort with Romanian folk dance](https://www.youtube.com/watch?v=ROalU379l3U) 
+[(VIDEO) Insert-sort with Romanian folk dance](https://www.youtube.com/watch?v=ROalU379l3U)
 
-[![(VIDEO) Insert-sort with Romanian folk dance](https://i.ytimg.com/vi/ROalU379l3U/hqdefault.jpg)](https://www.youtube.com/watch?v=ROalU379l3U) 
+[![(VIDEO) Insert-sort with Romanian folk dance](https://i.ytimg.com/vi/ROalU379l3U/hqdefault.jpg)](https://www.youtube.com/watch?v=ROalU379l3U)
 
 ### Algorithm
 1. Separate the first element from the rest of the array. Think about it as a sorted list of one element.
@@ -16,7 +16,7 @@ Think back to class or team picture day. Everyone stands in a line facing the ph
 
     b. Iterate to the left until you find the correct index in the "sorted" part of the array at which this element should be inserted  
     - Shift items over to the right as you iterate
-    
+
     c. When the correct index is found, copy temp into this position
 
 
@@ -60,7 +60,7 @@ An example of this algorithm being applied to an array with 10 numerical element
 
 2. For all indices EXCEPT the last index:
 
-    a. Loop through elements on right-hand-side 
+    a. Loop through elements on right-hand-side
     of current index and find the smallest element
 
     b. Swap the element at current index with the
@@ -83,7 +83,7 @@ Recall that the runtime complexity of an algorithm, often expressed using *Big O
 ### Try to write a search function
 - Complete the functions in `searching.py`
 
-### There are a few "order n" sorting algorithms whose runtime will be linear, even in a worst case scenario. 
+### There are a few "order n" sorting algorithms whose runtime will be linear, even in a worst case scenario.
 Look into Counting Sort.
 - How is this algorithm different from other iterative sorting algorithms?
     - What are the advantages/disadvantages to this type of sorting algorithm?
